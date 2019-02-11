@@ -14,7 +14,7 @@ public class Ranking {
 
    public Ranking() {
        ranking=  new LinkedList<JugadorRanking>();
-       ranking.addLast(new JugadorRanking( "David", 400,null));
+       ranking.addLast(new JugadorRanking( "David", 1000,null));
        ranking.addLast(new JugadorRanking( "Ruben", 300,null));
        ranking.addLast(new JugadorRanking( "Sandra", 200,null));
        ranking.addLast(new JugadorRanking( "Rodrigo", 100,null));

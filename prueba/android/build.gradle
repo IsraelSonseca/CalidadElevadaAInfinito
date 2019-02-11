@@ -12,6 +12,10 @@ android {
             jniLibs.srcDirs = ['libs']
         }
 
+        test{
+            java.srcDirs = ['test']
+        }
+
     }
     packagingOptions {
         exclude 'META-INF/robovm/ios/robovm.xml'
@@ -29,6 +33,12 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    // Gradle automatically adds 'android.test.runner' as a dependency.
+    useLibrary 'android.test.runner'
+
+    useLibrary 'android.test.base'
+    useLibrary 'android.test.mock'
+
 }
 
 
