@@ -1,8 +1,8 @@
 package com.mygdx.game;
 
+import GameObjects.PlayerShip;
+import Helpers.TakePhoto;
 import android.content.Intent;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.media.MediaScannerConnection;
 import android.net.Uri;
 import android.os.Build;
@@ -11,26 +11,18 @@ import android.os.Environment;
 import android.os.StrictMode;
 import android.provider.MediaStore;
 import android.util.Log;
-import android.widget.ImageView;
-
-import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 
-import org.w3c.dom.Text;
-
 import java.io.File;
-
-import GameObjects.PlayerShip;
-import Helpers.AssetLoader;
 
 import static android.Manifest.permission.CAMERA;
 import static android.Manifest.permission.READ_EXTERNAL_STORAGE;
 import static android.Manifest.permission.WRITE_EXTERNAL_STORAGE;
 
-public class AndroidLauncher extends AndroidApplication {
+public class AndroidLauncher extends AndroidApplication implements TakePhoto {
 	private  String name;
 	private  static String rutaImagenHecha="";
 
@@ -38,14 +30,19 @@ public class AndroidLauncher extends AndroidApplication {
 	private static String rutaFoto=dirRuta+"fotosSpaceInvaders";
 	private static  TextureRegion text;
 	private static  Texture t;
+
+	@Override
+	public void takePhoto(PlayerShip player) {
+		this.hacerFoto(player);
+	}
 	//private ImageView image;
 
 	@Override
 	protected void onCreate (Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		AndroidApplicationConfiguration config = new AndroidApplicationConfiguration();
-		initialize(new SpaceInvadersAnd(), config);
-		SpaceInvadersAnd.setAndroidLauncher(this);
+		initialize(new SpaceInvaders(), config);
+		SpaceInvaders.setTakePhoto(this);
 		//image = new ImageView(this);
 		//image = findViewById(R);
         //name=getName();
@@ -68,13 +65,13 @@ public class AndroidLauncher extends AndroidApplication {
 		}
 
 		if (fotoHecha){
-			nombreImagen= SpaceInvadersAnd.getName()+playerShip.getScore()+".jpg";
+			nombreImagen= SpaceInvaders.getName()+playerShip.getScore()+".jpg";
 		}
 		rutaImagenHecha= Environment.getExternalStorageDirectory()+File.separator+rutaFoto+nombreImagen;
 		File imagen=new File(rutaImagenHecha);
 		Intent intent= new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
 		intent.putExtra(MediaStore.EXTRA_OUTPUT,Uri.fromFile(imagen));
-		name=SpaceInvadersAnd.getName();
+		name=SpaceInvaders.getName();
 
 		playerShip.setPath(rutaImagenHecha);
 		playerShip.setNamePlayer(name);

@@ -1,5 +1,7 @@
 package com.mygdx.game;
 
+import GameObjects.PlayerShip;
+import Helpers.TakePhoto;
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
@@ -10,6 +12,8 @@ import Screens.GameScreen;
 public class SpaceInvaders extends Game{
 	private static String name;
 	private static boolean android;
+	private static TakePhoto takePhoto;
+
 	@Override
 	public void create() {
 		Gdx.app.log("SpaceInvadersGame", "created");
@@ -55,5 +59,13 @@ public class SpaceInvaders extends Game{
 
 	public static void setName(String n){
 		name=n;
+	}
+
+    public static void setTakePhoto(TakePhoto takePhoto) {
+        SpaceInvaders.takePhoto = takePhoto;
+    }
+
+	public static void hacerFoto(PlayerShip player){
+		takePhoto.takePhoto(player);
 	}
 }
