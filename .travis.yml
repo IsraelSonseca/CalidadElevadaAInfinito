@@ -6,7 +6,7 @@ before_cache:
  - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
 
 script:
-        - ./gradlew clean
+        - ./prueba/gradlew clean
         
 before_install:
-          - chmod +x gradlew
+          - chmod +x ./prueba/gradlew
