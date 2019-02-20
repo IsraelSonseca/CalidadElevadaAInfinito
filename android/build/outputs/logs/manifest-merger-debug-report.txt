@@ -1,0 +1,79 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml:2:1-28:12
+	package
+		ADDED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml:3:5-29
+		INJECTED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml
+		INJECTED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml
+		ADDED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml:2:1-28:12
+		INJECTED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml
+		ADDED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml:2:1-28:12
+		INJECTED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml:5:5-47
+INJECTED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml:5:5-47
+INJECTED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml:5:5-47
+INJECTED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml:5:5-47
+INJECTED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml:5:5-47
+	android:targetSdkVersion
+		ADDED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml:5:15-44
+		INJECTED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml
+		INJECTED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml
+		ADDED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml:5:5-47
+		INJECTED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml:6:5-64
+	android:name
+		ADDED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml:6:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml:8:22-77
+application
+ADDED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml:10:5-26:19
+	android:label
+		ADDED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml:13:9-41
+	android:icon
+		ADDED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml:12:9-45
+	android:allowBackup
+		ADDED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml:11:9-35
+	android:theme
+		ADDED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml:14:9-40
+activity#com.mygdx.game.AndroidLauncher
+ADDED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml:16:9-25:20
+	android:screenOrientation
+		ADDED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml:19:13-49
+	android:label
+		ADDED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml:18:13-45
+	android:configChanges
+		ADDED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml:20:13-107
+	android:name
+		ADDED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml:17:13-58
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml:21:13-24:29
+action#android.intent.action.MAIN
+ADDED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from /Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/AndroidManifest.xml:23:27-74

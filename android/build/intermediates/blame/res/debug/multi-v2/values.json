@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/res/values/styles.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "63",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "563"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "149",
+                        "endLines": "10",
+                        "endColumns": "12",
+                        "endOffsets": "647"
+                    }
+                },
+                {
+                    "source": "/Users/hectormediero/Documents/GitHubURJC/CalidadElevadaAInfinito/prueba/android/res/values/strings.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "56",
+                        "endColumns": "48",
+                        "endOffsets": "100"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endColumns": "48",
+                        "endOffsets": "144"
+                    }
+                }
+            ]
+        }
+    ]
+}
