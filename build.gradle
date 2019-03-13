@@ -114,3 +114,6 @@ project(":android") {
 tasks.eclipse.doLast {
     delete ".project"
 }
+plugins {
+  id "org.sonarqube" version "2.7"
+}
